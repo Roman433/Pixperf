@@ -22,8 +22,9 @@
                 <button class="button button-1 mb-3">отправить</button>
            </div>
         </div>
-        <div class="with-phone w-1/3">
-            <img class="w-full "    src="@/assets/img/phone.png" >
+        <div class="vertical-line"></div>
+        <div class="with-phone w-1/3  p-5">
+            <img class="w-full " src="@/assets/img/phone.png">
         </div>
     </div>
  
@@ -40,7 +41,7 @@
     #292929 110.44%
   );
   border: 1px solid rgba(255, 255, 255, 0.2);
-  margin-top: 140px;
+  margin-top: 3rem;
   border-radius: 30px;
   margin-bottom: 30px;
   
@@ -80,8 +81,11 @@ font-size: large;
   transition: all .15s ease-in-out;
   color: #ffffff; 
 }
-img {
-    width: 200%;
+
+.vertical-line {
+  width: 2px;
+  height: 27rem;
+  background-color: rgba(46, 236, 197, 1);
 }
 .button-1:hover {
   box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
@@ -99,6 +103,9 @@ img {
     .inp {
         width: 100%;
     }
+    img {
+    display: none;
+}
 }
 </style>
 

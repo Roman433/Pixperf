@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="overflow-y-hidden">
     <div class="container text-center ">
       <h1 class="text-volna text-6xl font-semibold mb-12">Тарифы</h1>
       <div class="cards flex lg:justify-between">

@@ -8,7 +8,7 @@
       <!-- <TheHead/> -->
       <NuxtPage />
     </div>
-    <!-- <TheFooter /> -->
+    <div class="container mx-auto"><TheForm /></div>
   </div>
 </template>
 
@@ -29,4 +29,5 @@ export default {
 .mar {
   background-color: black;
 }
+
 </style>

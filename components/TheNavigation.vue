@@ -1,6 +1,6 @@
 <template>
-   <nav class=" nav fixed lg:bg-black w-full z-10">
-    <div class="lg:text-3xl text-xl   text-white lg:container lg:p-8 p-6 min-w-full mx-auto flex  items-center justify-between">
+   <nav class="z-20 px-28 nav  fixed border  w-full z-10">
+    <div class="lg:text-3xl text-xl nav   text-white lg:container lg:p-8 p-6 min-w-full mx-auto flex  items-center justify-between">
       <NuxtLink to="/"> 
         <h1 class="sm:none">Pixel Perfect</h1> 
       </NuxtLink>
@@ -27,7 +27,10 @@
   
   
   <style scoped>
-
+.nav {
+  background-color: #000000;
+  border: #000000;
+}
 .button {
   padding: 1rem; 
 padding-left: 1.75rem;
