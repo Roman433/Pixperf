@@ -42,6 +42,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 140px;
   border-radius: 30px;
+  margin-bottom: 30px;
   
   
 }
