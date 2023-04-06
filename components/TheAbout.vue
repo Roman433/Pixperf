@@ -1,6 +1,6 @@
 <template>
-   <div class="container my-28">
-        <div class="mx-16 gradi mb-16 w-1/2">
+   <div class="container mb-8 mt-28">
+        <div class="mx-16 gradi  w-1/2">
             <h1 class=" text-white font-bold text-7xl">Для чего вам сайт?</h1>
             <h2 class="text-5xl mt-4 text-volna">Создание сайта поможет</h2>
             <p class="text-white text-2xl mt-3"> расширить ваш бизнес, а также увеличит кофморт его ведения</p>

@@ -26,6 +26,7 @@
         <div class="with-phone w-1/3  p-5">
             <img class="w-full " src="@/assets/img/phone.png">
         </div>
+        <h3 class="text-white mb-72">© 2022 LLC Pixel Perfect. All rights reserved. </h3>
     </div>
  
  
