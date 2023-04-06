@@ -6,8 +6,8 @@
   
     <TheMain />
     <TheSec />
-    <TheThird />
-    <TheTarifs  />
+    <!-- <TheThird />
+    <TheTarifs  /> -->
     <TheForm />
 
   </div>
