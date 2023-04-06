@@ -1,5 +1,5 @@
 <template>
-   <div class=" nav fixed lg:bg-black w-full z-10">
+   <nav class=" nav fixed lg:bg-black w-full z-10">
     <div class="lg:text-3xl text-xl   text-white lg:container lg:p-8 p-6 min-w-full mx-auto flex  items-center justify-between">
       <NuxtLink to="/"> 
         <h1 class="sm:none">Pixel Perfect</h1> 
@@ -20,7 +20,7 @@
        </div>
     </div>
     
-   </div>
+  </nav>
   </template>
   
   

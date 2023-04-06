@@ -1,6 +1,6 @@
 
 <template>
-  <div class="bg-black">
+  <div class=" mar">
    
     <div class="">
       <TheNavigation/>
@@ -24,3 +24,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.mar {
+  background-color: black;
+}
+</style>

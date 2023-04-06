@@ -2,10 +2,8 @@
 declare module 'vue' {
   export interface GlobalComponents {
     'TheAccordion': typeof import("../components/TheAccordion.vue")['default']
-    'TheAr': typeof import("../components/TheAr.vue")['default']
     'TheFooter': typeof import("../components/TheFooter.vue")['default']
     'TheForm': typeof import("../components/TheForm.vue")['default']
-    'TheHead': typeof import("../components/TheHead.vue")['default']
     'TheMain': typeof import("../components/TheMain.vue")['default']
     'TheModal': typeof import("../components/TheModal.vue")['default']
     'TheNavigation': typeof import("../components/TheNavigation.vue")['default']
@@ -34,10 +32,8 @@ declare module 'vue' {
     'Html': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyTheAccordion': typeof import("../components/TheAccordion.vue")['default']
-    'LazyTheAr': typeof import("../components/TheAr.vue")['default']
     'LazyTheFooter': typeof import("../components/TheFooter.vue")['default']
     'LazyTheForm': typeof import("../components/TheForm.vue")['default']
-    'LazyTheHead': typeof import("../components/TheHead.vue")['default']
     'LazyTheMain': typeof import("../components/TheMain.vue")['default']
     'LazyTheModal': typeof import("../components/TheModal.vue")['default']
     'LazyTheNavigation': typeof import("../components/TheNavigation.vue")['default']
@@ -69,10 +65,8 @@ declare module 'vue' {
 }
 
 export const TheAccordion: typeof import("../components/TheAccordion.vue")['default']
-export const TheAr: typeof import("../components/TheAr.vue")['default']
 export const TheFooter: typeof import("../components/TheFooter.vue")['default']
 export const TheForm: typeof import("../components/TheForm.vue")['default']
-export const TheHead: typeof import("../components/TheHead.vue")['default']
 export const TheMain: typeof import("../components/TheMain.vue")['default']
 export const TheModal: typeof import("../components/TheModal.vue")['default']
 export const TheNavigation: typeof import("../components/TheNavigation.vue")['default']
@@ -101,10 +95,8 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyTheAccordion: typeof import("../components/TheAccordion.vue")['default']
-export const LazyTheAr: typeof import("../components/TheAr.vue")['default']
 export const LazyTheFooter: typeof import("../components/TheFooter.vue")['default']
 export const LazyTheForm: typeof import("../components/TheForm.vue")['default']
-export const LazyTheHead: typeof import("../components/TheHead.vue")['default']
 export const LazyTheMain: typeof import("../components/TheMain.vue")['default']
 export const LazyTheModal: typeof import("../components/TheModal.vue")['default']
 export const LazyTheNavigation: typeof import("../components/TheNavigation.vue")['default']

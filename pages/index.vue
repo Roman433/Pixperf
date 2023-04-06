@@ -8,7 +8,7 @@
     <TheSec />
     <TheThird />
     <TheTarifs  />
-    <!-- <TheForm /> -->
+    <TheForm />
 
   </div>
  </div>
