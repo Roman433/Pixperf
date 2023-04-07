@@ -1,5 +1,5 @@
 <template>
-   <div class="container mb-8 mt-28">
+   <div class="container mb-8  mt-32">
         <div class="mx-16 gradi  w-1/2">
             <h1 class=" text-white font-bold text-7xl">Для чего вам сайт?</h1>
             <h2 class="text-5xl mt-4 text-volna">Создание сайта поможет</h2>
@@ -21,6 +21,12 @@ border-image-source: linear-gradient(128.11deg, #1ea392 0%, #020E0C 94.44%);
 border-image-slice:1  0 0 1;
 
 }
-
+@media (max-widht: 1024px) {
+    .container {
+        width: 100%;
+    }
+    .gradi {
+        width: 100%;
+    }
+}
 </style>
-rgb(59 130 246 / 0.5)

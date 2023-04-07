@@ -99,7 +99,9 @@ font-size: large;
 @media (max-width: 1024px) {
     .forma {
         width: 100%;
-        margin: 20px;
+        margin: auto;
+        padding: 20px;
+
     }
     .tad {
         width: 100%;

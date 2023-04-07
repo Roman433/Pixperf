@@ -58,13 +58,13 @@
             "
           >
             <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400">
-              Home
+              услуги
             </NuxtLink>
             <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400" to="/about">
               О нас
             </NuxtLink>
             <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400">
-              Blogs
+              контакты
             </NuxtLink>
             <NuxtLink to="#form"><div class="order button button-1    text-white">заказать</div></NuxtLink>
           </ul>
