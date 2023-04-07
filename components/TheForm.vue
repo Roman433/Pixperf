@@ -114,7 +114,11 @@ font-size: large;
     }
     img {
     display: none;
-}
+    }
+    .sec_forma {
+      margin-top: -25px;
+    }
+
 }
 </style>
 
