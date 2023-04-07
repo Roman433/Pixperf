@@ -15,9 +15,9 @@
         </div>
         <div class="lg:flex  lg:m-16  lg:justify-between">
           <button class="button button-1 mb-3">Подробнее ></button>
-          <button class="vop lg:text-white lg:button-3 lg:hover:underline">
+          <NuxtLink to="#form" class="vop lg:text-white lg:button-3 lg:hover:underline">
             остались вопросы
-          </button>
+          </NuxtLink>
           
         </div>
       </div>
@@ -86,17 +86,17 @@ h3 {
 .title-2 {
   animation: titleEffect 1s cubic-bezier(0, 0.2, 0.4, 1);
 }
-.home {
+/* .home {
   background-image: url("@/assets/img/bg.png");
-}
-.circle {
+} */
+/* .circle {
   background-image: url("@/assets/img/circles.png");
   background-position: center;
-}
+} */
 .horizontal-line {
   position: relative;
   height: 2px;
-  background-color: black;
+  /* background-color: black; */
   margin-bottom: 30px;
 }
 

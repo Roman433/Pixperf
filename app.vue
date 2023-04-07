@@ -1,11 +1,10 @@
 
 <template>
   <div class=" mar">
-   
+    
     <div class="">
-      <TheNavigation/>
-     
-      <!-- <TheHead/> -->
+      <!-- <TheNavigation/> -->
+      <div class=" "><TheTestNav /></div>
       <NuxtPage />
     </div>
     <div class="container mx-auto"><TheForm /></div>
@@ -27,7 +26,7 @@ export default {
 
 <style>
 .mar {
-  background-color: black;
+  background-image: url('@/assets/img/secbg.jpg');
 }
 
 </style>

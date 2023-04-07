@@ -1,5 +1,6 @@
 <template>
-  <div class=" flex tad ">
+  <div>
+    <div id="form" class=" flex tad ">
         <div class="forma w-1/3 m-8 ">
             <h1 class="text-volna text-5xl mb-3">Оставь заявку</h1>
             <form action="">
@@ -22,12 +23,14 @@
                 <button class="button button-1 mb-3">отправить</button>
            </div>
         </div>
-        <div class="vertical-line"></div>
+        
         <div class="with-phone w-1/3  p-5">
             <img class="w-full " src="@/assets/img/phone.png">
         </div>
-        <h3 class="text-white mb-72">© 2022 LLC Pixel Perfect. All rights reserved. </h3>
+        
     </div>
+    <h3 class="text-white text-center mb-28 ">© 2022 LLC Pixel Perfect. All rights reserved. </h3>
+  </div>
  
  
 </template>
@@ -92,6 +95,7 @@ font-size: large;
   box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
   border: 3px solid #00d7c3;
 }
+
 @media (max-width: 1024px) {
     .forma {
         width: 100%;
@@ -103,6 +107,8 @@ font-size: large;
     }
     .inp {
         width: 100%;
+        margin: auto;
+       
     }
     img {
     display: none;

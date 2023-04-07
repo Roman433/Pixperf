@@ -17,8 +17,10 @@ color: #020E0C;
 .gradi {
   padding: 4rem;
 border: 4px solid ;
-border-image-source: linear-gradient(128.11deg, #1ea392 0%, #020E0C 44.44%);
+border-image-source: linear-gradient(128.11deg, #1ea392 0%, #020E0C 94.44%);
 border-image-slice:1  0 0 1;
+
 }
 
 </style>
+rgb(59 130 246 / 0.5)
