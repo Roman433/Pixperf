@@ -19,7 +19,7 @@
               <div class="circle mx-auto"></div>
             </div>
             <div class="absolute step_3 left-0">
-              <TheStep />
+              <TheFinal />
             </div>
           </div>
       </div>
@@ -27,7 +27,7 @@
       <section class="adaptive">
         <TheStep />
         <TheSteptwo />
-        <TheSteptwo />
+        <TheFinal />
       </section>
     </div>
   </div>

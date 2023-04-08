@@ -5,9 +5,9 @@
                  <img src="@/assets/img/nods.png" alt="">    
              </div>
              <div class=" gradient  w-1/2 ">
-                 <h1 class=" text-white font-bold text-7xl">Для чего вам сайт?</h1>
-                 <h2 class="text-5xl mt-4 text-volna">Создание сайта поможет</h2>
-                 <p class="text-white text-2xl mt-3"> расширить ваш бизнес, а также увеличит кофморт его ведения</p>
+                 <h1 class=" text-white font-semibold text-7xl">Почему именно мы?</h1>
+                 <h2 class="text-5xl mt-4 text-volna">большинство клиентов </h2>
+                 <p class="text-white text-2xl mt-3"> довольны качествам, скоростью а также отзывчивостью и гибкостью сотрдуников</p>
              </div>
              
      </div>
