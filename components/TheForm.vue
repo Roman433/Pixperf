@@ -3,24 +3,25 @@
     <div id="form" class=" flex tad ">
         <div class="forma w-1/3 m-8 ">
             <h1 class="text-volna text-5xl mb-3">Оставь заявку</h1>
-            <form action="">
+            <form action="https://www.formbackend.com/f/b3bcdbe4f0fc854d" method="POST">
                 <p class="text-white">Ваше ФИО</p>
-                <input class="inp" type="text" placeholder="введите ваше имя" />
+                <input name="name" class="inp" type="text" placeholder="введите ваше имя" />
                 <p class="text-white">Ваш номер телефона</p>
-                <input class="inp" type="text" placeholder="Ввведите номер для связи с вами" />
+                <input name="phone" class="inp" type="text" placeholder="Ввведите номер для связи с вами" />
                 <p class="text-white">Ваш email</p>
-                <input class="inp" type="email" placeholder="введите контактный email" />
+                <input name="email" class="inp" type="email" placeholder="введите контактный email" />
             </form>
         </div>
         <div class="forma w-1/3 m-8  ">
            <div class="sec_forma">
-                <form class="" action="">
+                <form class="" action="https://www.formbackend.com/f/b3bcdbe4f0fc854d" method="POST">
                      <p class="text-white">Ваш бюджет</p>
-                     <input class="inp" type="text" placeholder="введите ваш бюджет" />
+                     <input name="money" class="inp" type="text" placeholder="введите ваш бюджет" />
                      <p class="text-white">Введите Ваш комментарий (по желанию)</p>
-                    <input class="inp" type="text" placeholder=" ваш комментарий" />
+                    <input name="comment" class="inp" type="text" placeholder=" ваш комментарий" />
+                    <button class="button button-1 mb-3">отправить</button>
                 </form>
-                <button class="button button-1 mb-3">отправить</button>
+                <!-- <button class="button button-1 mb-3">отправить</button> -->
            </div>
         </div>
         

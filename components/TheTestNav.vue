@@ -33,9 +33,9 @@
                   focus:outline-none focus:text-gray-400
                 "
               >
-              <div class="space-y-2 ">
+              <div  class="space-y-2 ">
               <span class="block w-8 h-0.5 bg-white"></span>
-              <span class="block w-5 h-0.5 bg-white"></span>
+              <span  class="block w-5 h-0.5 bg-white"></span>
             </div>
               </button>
             </div>
@@ -43,31 +43,30 @@
   
   
           <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-          <ul
+        <transition class="list" name="slide">
+            <ul
             :class="showMenu ? 'flex' : 'hidden'"
-            class="
-              flex-col
-              mt-8
-              space-y-4
-              md:flex
-              md:space-y-0
-              md:flex-row
-              md:items-center
-              md:space-x-10
-              md:mt-0
-            "
-          >
-            <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400">
-              услуги
-            </NuxtLink>
-            <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400" to="/about">
-              О нас
-            </NuxtLink>
-            <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400">
-              контакты
-            </NuxtLink>
-            <NuxtLink to="#form"><div class="order button button-1    text-white">заказать</div></NuxtLink>
+            class="list  flex-col mt-8  space-y-4 md:flex  md:space-y-0 md:flex-row md:items-center  md:space-x-10    md:mt-0  " >
+                <li>
+                    <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400">
+                             услуги
+                    </NuxtLink>
+                </li>
+                <li>
+                    <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400" to="/about">
+                         О нас
+                    </NuxtLink>
+                </li>
+            <li>
+                <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400">
+                     контакты
+                 </NuxtLink>
+            </li>
+            <li>
+                <NuxtLink to="#form"><div class="order button button-1    text-white">заказать</div></NuxtLink>
+            </li>
           </ul>
+        </transition>
         </nav>
       </div>
     </div>
@@ -77,6 +76,7 @@
     data() {
       return {
         showMenu: false,
+        
       };
     },
   };
@@ -122,7 +122,10 @@ border-image-slice:1  0 0 1;
   .button-1 {
     overflow: hidden;
   }
- 
+  .list{
+  transition: transform 1.4s ease-in-out;
+}
+
   
 }
   </style>
