@@ -1,27 +1,28 @@
 <template>
   <div>
-    <div id="form" class=" flex tad ">
+    <form>
+      <div id="form" class=" flex tad ">
         <div class="forma w-1/3 m-8 ">
             <h1 class="text-volna text-5xl mb-3">Оставь заявку</h1>
-            <form action="https://www.formbackend.com/f/b3bcdbe4f0fc854d" method="POST">
+            <div action="" method="POST">
                 <p class="text-white">Ваше ФИО</p>
                 <input name="name" class="inp" type="text" placeholder="введите ваше имя" />
                 <p class="text-white">Ваш номер телефона</p>
                 <input name="phone" class="inp" type="text" placeholder="Ввведите номер для связи с вами" />
                 <p class="text-white">Ваш email</p>
                 <input name="email" class="inp" type="email" placeholder="введите контактный email" />
-            </form>
+            </div>
         </div>
         <div class="forma w-1/3 m-8  ">
            <div class="sec_forma">
-                <form class="" action="https://www.formbackend.com/f/b3bcdbe4f0fc854d" method="POST">
+                <div class="" >
                      <p class="text-white">Ваш бюджет</p>
                      <input name="money" class="inp" type="text" placeholder="введите ваш бюджет" />
                      <p class="text-white">Введите Ваш комментарий (по желанию)</p>
                     <input name="comment" class="inp" type="text" placeholder=" ваш комментарий" />
                     <button class="button button-1 mb-3">отправить</button>
-                </form>
-                <!-- <button class="button button-1 mb-3">отправить</button> -->
+                </div>
+                
            </div>
         </div>
         
@@ -30,6 +31,7 @@
         </div>
         
     </div>
+    </form>
     <h3 class="text-white text-center mb-28 ">© 2022 LLC Pixel Perfect. All rights reserved. </h3>
   </div>
  
@@ -95,6 +97,9 @@ font-size: large;
 .button-1:hover {
   box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
   border: 3px solid #00d7c3;
+}
+.forma {
+  
 }
 
 @media (max-width: 1024px) {

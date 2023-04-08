@@ -2,6 +2,7 @@
 declare module 'vue' {
   export interface GlobalComponents {
     'TheAbout': typeof import("../components/TheAbout.vue")['default']
+    'TheAboutTri': typeof import("../components/TheAboutTri.vue")['default']
     'TheAccordion': typeof import("../components/TheAccordion.vue")['default']
     'TheCircle': typeof import("../components/TheCircle.vue")['default']
     'TheForm': typeof import("../components/TheForm.vue")['default']
@@ -37,6 +38,7 @@ declare module 'vue' {
     'Html': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyTheAbout': typeof import("../components/TheAbout.vue")['default']
+    'LazyTheAboutTri': typeof import("../components/TheAboutTri.vue")['default']
     'LazyTheAccordion': typeof import("../components/TheAccordion.vue")['default']
     'LazyTheCircle': typeof import("../components/TheCircle.vue")['default']
     'LazyTheForm': typeof import("../components/TheForm.vue")['default']
@@ -75,6 +77,7 @@ declare module 'vue' {
 }
 
 export const TheAbout: typeof import("../components/TheAbout.vue")['default']
+export const TheAboutTri: typeof import("../components/TheAboutTri.vue")['default']
 export const TheAccordion: typeof import("../components/TheAccordion.vue")['default']
 export const TheCircle: typeof import("../components/TheCircle.vue")['default']
 export const TheForm: typeof import("../components/TheForm.vue")['default']
@@ -110,6 +113,7 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyTheAbout: typeof import("../components/TheAbout.vue")['default']
+export const LazyTheAboutTri: typeof import("../components/TheAboutTri.vue")['default']
 export const LazyTheAccordion: typeof import("../components/TheAccordion.vue")['default']
 export const LazyTheCircle: typeof import("../components/TheCircle.vue")['default']
 export const LazyTheForm: typeof import("../components/TheForm.vue")['default']

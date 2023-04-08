@@ -35,8 +35,8 @@
         display: block;
         text-align: center;
     }
-    .container {
+    /* .container {
         margin-bottom: 10rem;
-    }
+    } */
 }
 </style>

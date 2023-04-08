@@ -3,6 +3,7 @@
     <div class="container mx-auto">
     <div class=""></div>
     <TheAbout />
+    <TheAboutTri />
     <TheGlobStep />
   </div>
   </div>

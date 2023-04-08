@@ -1,22 +1,33 @@
 <template>
     <div class="">
-      <h1 class="text-white">Accordion in Nuxt.js</h1>
-      <div class="container text-white rounded-lg w-full  " v-for="item in items" :key="item.id">
-        <button @click="toggleAccordion(item.id)">{{ item.title }}</button>
-        <div v-if="item.open">{{ item.content }}</div>
+      
+      <div class="container  m-12 text-white rounded-lg w-full  " v-for="item in items" :key="item.id">
+        <div class="flex ">
+          <div   class="my-auto p-3">
+           <div :class="{'active':  item.id }" >
+            <svg width="32" height="32" viewBox="0 0 27 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M25.5 13.4019C27.5 14.5566 27.5 17.4434 25.5 18.5981L4.5 30.7224C2.5 31.8771 -1.50515e-06 30.4338 -1.4042e-06 28.1244L-3.44255e-07 3.87564C-2.43308e-07 1.56624 2.5 0.122865 4.5 1.27757L25.5 13.4019Z" fill="#1EEBCD"/>
+           </svg>
+           </div>
+          </div>
+          <h1 class="" @click="toggleAccordion(item.id)">{{ item.title }}  </h1>
+        </div>
+        <p class="m-2 text-3xl" v-if="item.open">{{ item.content }}</p>
       </div>
     </div>
   </template>
+  v-if="item.open" :class="active"
   
   <script>
   export default {
     data() {
       return {
         items: [
-          { id: 1, title: 'Item 1', content: 'Content fovdvr item 1', open: false },
-          { id: 2, title: 'Item 2', content: 'Content for item 2', open: false },
-          { id: 3, title: 'Item 3', content: 'Content for item 3', open: false }
-        ]
+          { id: 1, title: 'Сколько времени уходит на созданиие сайта?', content: 'обычно на создание сайта с нуля уходит от 1 недели до двух месяцев в зависимости от сложности', open: false },
+          { id: 2, title: 'Сколько времени уходит на созданиие сайта?', content: 'обычно на создание сайта с нуля уходит от 1 недели до двух месяцев в зависимости от сложности', open: false },
+          { id: 3, title: 'Сколько времени уходит на созданиие сайта?', content: 'обычно на создание сайта с нуля уходит от 1 недели до двух месяцев в зависимости от сложности', open: false }
+        ],
+        IsClosed: true,
       }
     },
     methods: {
@@ -34,3 +45,20 @@
   }
   </script>
   
+  <style scoped>
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+  }
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+  }
+  .active {
+    transform: rotate(90deg);
+  }
+  </style>
