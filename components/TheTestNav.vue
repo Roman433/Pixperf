@@ -23,7 +23,7 @@
               "
               >Pixel Perfect
             </NuxtLink>
-            <!-- Mobile menu button -->
+            
             <div @click="showMenu = !showMenu" class="flex md:hidden">
               <button
                 type="button"
@@ -42,7 +42,7 @@
           </div>
   
   
-          <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+          
         <transition class="list" name="slide">
             <ul
             :class="showMenu ? 'flex' : 'hidden'"
