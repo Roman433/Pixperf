@@ -49,7 +49,7 @@
             class="list  flex-col mt-8 relative space-y-4 md:flex  md:space-y-0 md:flex-row md:items-center  md:space-x-10    md:mt-0  " >
                 <ul>
                     <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400">
-                             услуги &#9660;
+                             услуги 
                     </NuxtLink>
                    
                 </ul>
