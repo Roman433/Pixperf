@@ -3,7 +3,7 @@
     <form>
       <div id="form" class=" flex tad ">
         <div class="forma w-1/3 m-8 ">
-            <h1 class="text-volna text-5xl mb-3">Оставь заявку</h1>
+            <h1 class="text-volna send text-5xl mb-3">Оставь заявку</h1>
             <div action="" method="POST">
                 <p class="text-white">Ваше ФИО</p>
                 <input name="name" class="inp" type="text" placeholder="введите ваше имя" />
@@ -39,6 +39,9 @@
 </template>
 
 <style scoped>
+.send {
+  padding: 5px;
+}
 .tad {
   background: linear-gradient(
     91.69deg,
@@ -55,7 +58,7 @@
   
 }
 .sec_forma {
-    margin-top: 59px;
+    margin-top: 70px;
 }
 .inp {
   background: rgba(255, 255, 255, 0.1);

@@ -36,14 +36,22 @@ border-image-slice:1  0 0 1;
 -webkit-backdrop-filter: blur(10px); */
 
 }
+h1 {
+    padding: 10px;
+}
+h2 {
+   padding: 5px;
+}
 
 @media (max-width: 1024px) {
     .gradient {
         width: 100%;
         border-image-slice:1  0 1 1;
+        height: 100%;
     }
     .first_main {
         display: block;
+        padding: 5px;
     }
     .with_img {
         display: none;
@@ -53,9 +61,11 @@ border-image-slice:1  0 0 1;
         line-height: 100%;
         font-style: normal;
         font-weight: 600;
+        overflow-y: auto;
     }
     h2 {
         font-size: 28px;
+        overflow-y: hidden;
     }
     p {
         font-style: normal;

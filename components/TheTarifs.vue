@@ -1,7 +1,7 @@
 <template>
   <div class="overflow-y-hidden">
     <div class="container text-center ">
-      <h1 class="text-volna text-6xl font-semibold mb-12">Тарифы</h1>
+      <h1 class="text-volna text-6xl p-1 font-semibold mb-12">Тарифы</h1>
       <div class="cards flex lg:justify-between">
         <div class="card1  bg-lighty p-2 rounded-xl">
           <h1 class="text-white text-3xl p-6 font-semibold">сайт "Каталог"</h1>
@@ -101,19 +101,32 @@
   
 
 }
+.cards {
+  padding: 35px;
+  margin: 5px;
+}
 @media (max-width: 767px) { 
   .cards{
     display: block;
-    margin: 10px;
+    margin: 20px;
+    padding: 10px;
      
   }
   .card1 {
     width: 100%;
     transition: all .5s ease-in-out;
-   padding: 23px;
+   padding: 5px;
    margin-top: 20px;
+ 
+  }
+  .button {
+    margin: 0.25rem;
+    color: #ffffff; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+  } 
 }
- }
+ 
 .card1 {
     width: 33,3%;
     transition: all .5s ease-in-out;
@@ -121,8 +134,9 @@
 }
 
 .card1:hover {
-  transform: scale(1.1);
-    transition: transform .7s;
+  /* transform: scale(1.1);
+    transition: transform .7s; */
+    /* display: none; */
 }
 .vertical-line {
   width: 2px;

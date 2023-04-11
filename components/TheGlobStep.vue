@@ -4,13 +4,14 @@
       <div class="steps relative">
           <div class="absolute top-16 left-0">
               <TheStep />
+              
           </div>
           <div class="lines">
             <div class="circle mx-auto"></div>
             <div class="vertical-line mx-auto"></div>
             <div class="circle mx-auto"></div>
           </div>
-          <div class="absolute step_2 right-10">
+          <div class="absolute step_2 right-1">
             <TheSteptwo />
           </div>
           <div class="lines_2">
@@ -23,7 +24,7 @@
             </div>
           </div>
       </div>
-      <TheAccordion />
+      
       <section class="adaptive">
         <TheStep />
         <TheSteptwo />

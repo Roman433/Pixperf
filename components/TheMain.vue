@@ -1,27 +1,28 @@
 <template>
   <div>
-    <div class="lg:flex   overflow-x-hidden lg:w-full lg:home">
-      <div class="mt-16 p-3 relative z-10 overflow-x-hidden w-full lg:left lg:mt-48 lg:p-2 lg:w-1/2">
-        <div class="lg:pb-4 overflow-hidden   lg:border  lg:text-start">
-          <h1 class="text-volna  title font-semibold text-5xl lg:text-7xl pb-2">
-            Разработка сайтов
+    <div class="flex   overflow-x-hidden w-full home">
+      <div class="mt-16 p-2 relative z-10  w-full lg:left mt-26 lg:mt-48 lg:p-2 lg:w-1/2">
+        <div class="lg:pb-4    border  text-start">
+          <h1 class="text-volna  title font-semibold text-4xl  lg:text-7xl pb-2">
+            Разработка<br/> сайтов
           </h1>
-          <h2 class=" text-volna text-lg text-5xl title-2 pb-3">для твоего бизнеса</h2>
-          <h3 class=" text-white lg:text-lg    text-xl ton">
+          <h2 class=" text-volna text-lg lg:text-5xl title-2 p-2">для твоего бизнеса</h2>
+          <h3 class=" text-white text-lg    lg:text-2xl ton">
             Мы - студия web-разработки, работаем уже более 3-х лет,готовы
             разработать для вас сайт в кротчайшие сроки.
           </h3>
         
         </div>
-        <div class="lg:flex  lg:m-16  lg:justify-between">
-          <button class="button button-1 mb-3">Подробнее ></button>
-          <NuxtLink to="#form" class="vop lg:text-white lg:button-3 lg:hover:underline">
+        <div class="flex  w-full items-center pt-28   justify-between">
+          <button class="button button-1 lg:mb-3">Подробнее ></button>
+         
+          <NuxtLink to="#form" class="vop text-white button-3 hover:underline">
             остались вопросы
           </NuxtLink>
           
         </div>
       </div>
-      <div class="cul lg:right overflow-y-hidden lg:w-1/2 lg:h-full lg:circle">
+      <div class="cul right  w-1/2 h-full circle">
         <img class=" w-full button-3" src="@/assets/img/man.png" alt="" />
       </div>
     </div>
@@ -32,6 +33,9 @@
 
 
 <style scoped>
+br {
+  display: none;
+}
 
 @media  (max-width: 1024px)  {
 .cul {
@@ -51,12 +55,12 @@ img {
   display: block;
 }
 .button {
-  padding: 0.5rem;
+  padding: 0.25rem;
 
   font-size: medium;
   align-items: center;
-  margin-top: 2rem;
-  margin-right: 2rem;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
 
 }
 h2 {
@@ -70,7 +74,9 @@ h3 {
   display: none;
 }
 
-
+br {
+  display: flex;
+}
 }
 
 
@@ -86,13 +92,13 @@ h3 {
 .title-2 {
   animation: titleEffect 1s cubic-bezier(0, 0.2, 0.4, 1);
 }
-/* .home {
+.home {
   background-image: url("@/assets/img/bg.png");
-} */
-/* .circle {
+}
+.circle {
   background-image: url("@/assets/img/circles.png");
   background-position: center;
-} */
+}
 .horizontal-line {
   position: relative;
   height: 2px;

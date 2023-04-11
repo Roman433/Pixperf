@@ -3,8 +3,12 @@
     <div class="container mx-auto">
     <div class=""></div>
     <TheAbout />
+    <div class="mx-auto">
+      <TheAccordion />
+    </div>
     <TheAboutTri />
     <TheGlobStep />
+    <!-- <TheSlider /> -->
   </div>
   </div>
 </template>

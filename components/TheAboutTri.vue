@@ -37,6 +37,9 @@
  -webkit-backdrop-filter: blur(10px); */
  
  }
+ h1 {
+    padding: 10px;
+ }
  
  @media (max-width: 1024px) {
      .gradient {
@@ -54,9 +57,13 @@
          line-height: 100%;
          font-style: normal;
          font-weight: 600;
+         overflow-y: hidden;
+         text-align: start;
      }
      h2 {
          font-size: 28px;
+         overflow-y: hidden;
+         text-align: start;
      }
      p {
          font-style: normal;

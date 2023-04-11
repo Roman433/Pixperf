@@ -1,10 +1,10 @@
 <template>
     <div class="">
       
-      <div class="container  m-12 text-white rounded-lg w-full  " v-for="item in items" :key="item.id">
-        <div class="flex ">
-          <div   class="my-auto p-3">
-           <div :class="{'active':  item.id }" >
+      <div class=" m-12 text-white rounded-lg w-full  " v-for="item in items" :key="item.id">
+        <div class="title_svg flex items-center">
+          <div   class="svg_one my-auto p-3">
+           <div :class="{'active':  item.open }" >
             <svg width="32" height="32" viewBox="0 0 27 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M25.5 13.4019C27.5 14.5566 27.5 17.4434 25.5 18.5981L4.5 30.7224C2.5 31.8771 -1.50515e-06 30.4338 -1.4042e-06 28.1244L-3.44255e-07 3.87564C-2.43308e-07 1.56624 2.5 0.122865 4.5 1.27757L25.5 13.4019Z" fill="#1EEBCD"/>
            </svg>
@@ -12,11 +12,11 @@
           </div>
           <h1 class="" @click="toggleAccordion(item.id)">{{ item.title }}  </h1>
         </div>
-        <p class="m-2 text-3xl" v-if="item.open">{{ item.content }}</p>
+        <p class="inactive-text m-2 text-3xl" :class="{'active-text': item.open}" v-if="item.open">{{ item.content }}</p>
       </div>
     </div>
   </template>
-  v-if="item.open" :class="active"
+  
   
   <script>
   export default {
@@ -27,7 +27,7 @@
           { id: 2, title: 'Сколько времени уходит на созданиие сайта?', content: 'обычно на создание сайта с нуля уходит от 1 недели до двух месяцев в зависимости от сложности', open: false },
           { id: 3, title: 'Сколько времени уходит на созданиие сайта?', content: 'обычно на создание сайта с нуля уходит от 1 недели до двух месяцев в зависимости от сложности', open: false }
         ],
-        IsClosed: true,
+        
       }
     },
     methods: {
@@ -60,5 +60,47 @@
   }
   .active {
     transform: rotate(90deg);
+    transition: 0.25s;
+    
   }
+  .inactive-text {
+    opacity: 0;
+    transition: 1s;
+  }
+  .active-text {
+    opacity:1; 
+    transition: 1s; 
+  }
+  @media (max-width:1024px) {
+    h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    padding: 10px;
+    }
+    p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    }
+    /* svg {
+      padding: 35px;
+      width: 20px;
+      height: 20px;
+     
+    } */
+    .title_svg {
+      margin: 10px;
+    }
+    .svg_one {
+      padding: 15px;
+      
+    }
+    .active {
+      padding-right: 35px;
+    }
+  }
+
   </style>

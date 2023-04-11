@@ -1,6 +1,20 @@
 <template>
-    <div class="text-white text-center border border-white items-center container m-auto">
-        <h1 class="text-3xl text-center">go home error</h1>
-        <NuxtLink to="/"><h2>homepage</h2></NuxtLink>
+    <div class="bg-black">
+        <div class="section-one">
+        <TheError />
+    </div>
     </div>
 </template>
+
+<style scoped>
+     
+.section-one {
+    
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 100%;
+    padding: 30px;
+    background-image: url("@/assets/img/404.png");
+    padding-bottom: 40rem;
+}
+</style>

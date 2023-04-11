@@ -46,19 +46,21 @@
         <transition class="list" name="slide">
             <ul
             :class="showMenu ? 'flex' : 'hidden'"
-            class="list  flex-col mt-8  space-y-4 md:flex  md:space-y-0 md:flex-row md:items-center  md:space-x-10    md:mt-0  " >
-                <li>
+            class="list  flex-col mt-8 relative space-y-4 md:flex  md:space-y-0 md:flex-row md:items-center  md:space-x-10    md:mt-0  " >
+                <ul>
                     <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400">
-                             услуги
+                             услуги &#9660;
                     </NuxtLink>
-                </li>
+                   
+                </ul>
+                
                 <li>
                     <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400" to="/about">
                          О нас
                     </NuxtLink>
                 </li>
             <li>
-                <NuxtLink class="text-lg font-semibold text-gray-800 hover:text-blue-400">
+                <NuxtLink to="contacts" class="text-lg font-semibold text-gray-800 hover:text-blue-400">
                      контакты
                  </NuxtLink>
             </li>
@@ -72,14 +74,16 @@
     </div>
   </template>
   <script>
+
+
   export default {
     data() {
-      return {
-        showMenu: false,
-        
-      };
+        return {
+            showMenu: false,
+        };
     },
-  };
+
+};
   </script>
 
   <style scoped>

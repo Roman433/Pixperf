@@ -2,33 +2,33 @@
   <div class="container">
     <div class="lg:flex bor lg:justify-between">
       <div class="withtext w-full  lg:w-1/2 ">
-        <h1 class="text-3xl text-start lg:text-start lg:text-5xl  text-volna font-semibold mb-6">
+        <h1 class="text-3xl text-start lg:text-start lg:text-5xl p-2  text-volna font-semibold mb-6">
           Причины сотрудничать
           с нами
         </h1>
-        <p class="text-white par_1 text-lg mb-4">
+        <p class="text-white p-2 par_1 text-lg mb-4">
           Пока конкуренты говорят о том, что они лучшие - мы это доказываем<br />
           делом.
         </p>
-        <p class="text-white text-lg mb-4">
+        <p class="text-white p-2 text-lg mb-4">
           Вы можете ознакомиться с информацией о нас и посмотреть наше <br />
           портфолио
         </p>
-        <button class="offset btn_port ">портфолио</button>
+        <NuxtLink to="/portfolio"><button class="offset btn_port ">портфолио</button></NuxtLink>
       </div>
-      <div class="tom lg:w-1/3 oly text-white">
+      <div class="tom  oly text-white">
         <div class="p-6   ">
-          <h1 class="text-4xl lg:text-5xl p-4 lg:p-5">
+          <h1 class="text-4xl lg:text-5xl p-1 lg:p-5">
             Приемлимые <br />
             цены
           </h1>
-          <h2 class="text-xl lg:text-2xl lg:p-5 mb-32 lg:mb-32 lg:text-start ">
+          <h2 class="text-xl  lg:text-2xl lg:p-5 mb-32 lg:mb-32 lg:text-start ">
             мы максимально оптимизируем <br />
             наш труд, для того, чтобы цены <br />
             были доступными
           </h2>
         </div>
-        <img class="" src="@/assets/img/money.png" alt="">
+        <img class=" w-1/2" src="@/assets/img/money.png" alt="">
       </div>
     </div>
   </div>
@@ -54,6 +54,15 @@ export default {
   }
   .btn_port {
     margin-bottom: 1.5rem;
+  }
+  .tom {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 33,3%;
+    margin: 15px;
+  }
+  .image {
+    width: 30,3%;
   }
 }
 

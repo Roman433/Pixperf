@@ -7,6 +7,7 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
     "./app.vue",
+    "./node_modules/flowbite.{js,ts}",
   ],
   theme: {
     extend: {},
@@ -18,5 +19,7 @@ module.exports = {
       bluety: 'linear-gradient(139.56deg, #527791 10.06%, #325597 53.72%, #193895 88%)',
     }
   },
-  plugins: [],
+  plugins: [
+    require('flowbite')
+  ],
 }
