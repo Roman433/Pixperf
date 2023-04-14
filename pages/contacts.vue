@@ -1,7 +1,7 @@
 <template>
     <section class="mainer">
       <div class="container mx-auto">
-        
+        <TheCont />
 
       </div>
     </section>

@@ -32,7 +32,7 @@
         
     </div>
     </form>
-    <h3 class="text-white text-center mb-28 ">© 2022 LLC Pixel Perfect. All rights reserved. </h3>
+    
   </div>
  
  

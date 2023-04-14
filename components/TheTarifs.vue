@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="card1 bg-lighty p-2 rounded-xl">
-          <h1 class="text-white text-3xl p-6 font-semibold">сайт "Каталог"</h1>
+          <h1 class="text-white text-3xl text-center p-6 font-semibold"> "универсальный"</h1>
           <p class="text-white p-6">
             Сайт-каталог – это полноценный <br />
             веб-ресурс, в котором <br />
@@ -62,7 +62,7 @@
         <div class="card1 bg-lighty p-2 rounded-xl">
           <h1 class="text-white text-3xl p-6 font-semibold">сайт "Каталог"</h1>
           <p class="text-white p-6">
-            Сайт-каталог – это полноценный <br />
+            Сайт-катаог – это полноценный <br />
             веб-ресурс, в котором <br />
             потребители могут ознакомиться <br />
             с товарами или услугами <br />
@@ -125,6 +125,30 @@
     font-size: 0.875rem;
     line-height: 1.25rem; 
   } 
+}
+.box {
+	 --border-size: 3px;
+	 --border-angle: 0turn;
+	 width: 60vmin;
+	 height: 50vmin;
+	 background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+	 background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
+	 background-position: center center;
+	 background-repeat: no-repeat;
+	 animation: bg-spin 3s linear infinite;
+}
+ @keyframes bg-spin {
+	 to {
+		 --border-angle: 1turn;
+	}
+}
+ .box:hover {
+	 animation-play-state: paused;
+}
+ @property --border-angle {
+	 syntax: "<angle>";
+	 inherits: true;
+	 initial-value: 0turn;
 }
  
 .card1 {

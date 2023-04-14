@@ -7,7 +7,10 @@
       <div class=" "><TheTestNav /></div>
       <NuxtPage />
     </div>
-    <div class="container mx-auto"><TheForm /></div>
+    <div class="container mx-auto"><TheForm />
+    
+    </div>
+    <TheFooter />
   </div>
 </template>
 

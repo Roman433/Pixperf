@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as c}from"./entry.209a6fed.js";const o={},s={class:"bg-black text-white"};function n(r,_){return c(),t("div",s," wlfwd,wl,lfd ")}const l=e(o,[["render",n]]);export{l as default};

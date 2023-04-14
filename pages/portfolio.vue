@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto container p-24">
+    <div class="">
           <TheGallery />
         </div>
 </template>

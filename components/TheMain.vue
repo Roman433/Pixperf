@@ -3,18 +3,21 @@
     <div class="flex   overflow-x-hidden w-full home">
       <div class="mt-16 p-2 relative z-10  w-full lg:left mt-26 lg:mt-48 lg:p-2 lg:w-1/2">
         <div class="lg:pb-4    border  text-start">
-          <h1 class="text-volna  title font-semibold text-4xl  lg:text-7xl pb-2">
+          <h1 class="text-volna  title font-semibold text-5xl  lg:text-7xl pb-2">
             Разработка<br/> сайтов
           </h1>
           <h2 class=" text-volna text-lg lg:text-5xl title-2 p-2">для твоего бизнеса</h2>
-          <h3 class=" text-white text-lg    lg:text-2xl ton">
+          <h3 class=" text-white text-lg hidden lg:flex   lg:text-2xl ton">
             Мы - студия web-разработки, работаем уже более 3-х лет,готовы
             разработать для вас сайт в кротчайшие сроки.
           </h3>
+          <h3 class="text-white text-lg lg:hidden flex">
+            Мы web-студия которая работает уже больше 3-х лет 
+          </h3>
         
         </div>
-        <div class="flex  w-full items-center pt-28   justify-between">
-          <button class="button button-1 lg:mb-3">Подробнее ></button>
+        <div class="flex  w-full items-center pt-24 lg:pt-28   justify-between">
+          <NuxtLink to="/about"><button class="button button-1 lg:mb-3">Подробнее ></button></NuxtLink>
          
           <NuxtLink to="#form" class="vop text-white button-3 hover:underline">
             остались вопросы

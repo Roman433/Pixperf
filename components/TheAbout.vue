@@ -32,8 +32,8 @@ color: #020E0C;
 border: 4px solid ;
 border-image-source: linear-gradient(128.11deg, #1ea392 0%, #020E0C 94.44%);
 border-image-slice:1  0 0 1;
-/* backdrop-filter: blur(10px);
--webkit-backdrop-filter: blur(10px); */
+    /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); */
 
 }
 h1 {

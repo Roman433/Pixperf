@@ -17,6 +17,8 @@ module.exports = {
       white: 'rgba(255, 255, 255)',
       lighty: 'rgba(46, 236, 197, 0.1)',
       bluety: 'linear-gradient(139.56deg, #527791 10.06%, #325597 53.72%, #193895 88%)',
+      gray: 'rgb(3 7 18)',
+      
     }
   },
   plugins: [
