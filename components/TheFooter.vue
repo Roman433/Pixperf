@@ -5,7 +5,8 @@
       <div class="lg:w-1/3 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">УСЛУГИ</h2>
         <nav class="list-none mb-10">
-          <li>
+          <ul>
+            <li>
             <a class="text-white hover:text-white">Создание сайтов</a>
           </li>
           <li>
@@ -17,6 +18,7 @@
           <li>
             <a class="text-white hover:text-white">Fourth Link</a>
           </li>
+          </ul>
         </nav>
       </div>
       <div class="lg:w-1/3 md:w-1/2 w-full px-4">

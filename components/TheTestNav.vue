@@ -30,16 +30,24 @@
             :class="showMenu ? 'flex' : 'hidden'"
             class="list flex-col mt-8 relative space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
           >
-            <ul class="">
+            <li class="">
               <NuxtLink to="/services"
-                class="text-lg font-semibold text-gray-800 hover:text-blue-400"
+                class="text-lg hover:text-volna font-semibold text-gray-800 hover:text-blue-400"
               >
-                услуги </NuxtLink
+                Услуги </NuxtLink
               >
-            </ul>
+            </li>
             <li>
               <NuxtLink
-                class="text-lg font-semibold text-gray-800 hover:text-blue-400"
+                class="text-lg hover:text-volna font-semibold text-gray-800 hover:text-blue-400"
+                to="/price"
+              >
+                Цены
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink
+                class="text-lg hover:text-volna font-semibold text-gray-800 hover:text-blue-400"
                 to="/about"
               >
                 О нас
@@ -48,9 +56,9 @@
             <li>
               <NuxtLink
                 to="contacts"
-                class="text-lg font-semibold text-gray-800 hover:text-blue-400"
+                class="text-lg hover:text-volna font-semibold text-gray-800 hover:text-blue-400"
               >
-                контакты
+                Контакты
               </NuxtLink>
             </li>
             <li>

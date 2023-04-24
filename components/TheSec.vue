@@ -17,7 +17,7 @@
         <NuxtLink to="/portfolio"><button class="offset btn_port ">портфолио</button></NuxtLink>
       </div>
       <div class="tom  oly text-white">
-        <div class="p-6   ">
+        <div class="p-3   ">
           <h1 class="text-4xl lg:text-5xl p-1 lg:p-5">
             Приемлимые <br />
             цены
@@ -97,7 +97,7 @@ img {
   position: absolute;
   bottom: 0;
   right: 0;
-  
+  width: 40%;
   
 }
 offset {

@@ -15,7 +15,7 @@
               <img
                 alt="gallery"
                 class="absolute inset-0 w-full h-full object-cover object-center"
-                src="@/assets/img/triangles.png"
+                src="@/assets/img/portfolio_1.png"
               />
               <div
                 class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"
@@ -40,7 +40,7 @@
               <img
                 alt="gallery"
                 class="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://dummyimage.com/601x361"
+                src="@/assets/img/portfolio_2.svg"
               />
               <div
                 class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"
@@ -65,7 +65,7 @@
               <img
                 alt="gallery"
                 class="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://dummyimage.com/603x363"
+                src="@/assets/img/portfolio_3.svg"
               />
               <div
                 class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"
@@ -90,7 +90,7 @@
               <img
                 alt="gallery"
                 class="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://dummyimage.com/602x362"
+                src="@/assets/img/portfolio_4.svg"
               />
               <div
                 class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"

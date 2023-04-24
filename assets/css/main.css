@@ -1,9 +1,11 @@
+@import url('@/assets/font/stylesheet.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-@import url('@/assets/font/stylesheet.css');
+
+
 
 body {
   font-family: 'Ruberoid Extra';

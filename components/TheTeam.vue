@@ -8,7 +8,7 @@
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-1/2">
         <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="@/assets/img/avatar.png">
           <div class="flex-grow sm:pl-8">
             <h2 class="title-font font-semibold text-2xl lg:text-4xl text-white">Роман</h2>
             <h3 class="text-volna font-semibold text-lg lg:text-xl mb-3">Fullstack developer</h3>
@@ -35,7 +35,7 @@
       </div>
       <div class="p-4 lg:w-1/2">
         <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/201x201">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="@/assets/img/avatar.png">
           <div class="flex-grow sm:pl-8">
             <h2 class="title-font font-semibold text-2xl lg:text-4xl text-white">Илияс</h2>
             <h3 class="text-volna font-semibold text-lg lg:text-xl mb-3">Designer/ UX UI</h3>

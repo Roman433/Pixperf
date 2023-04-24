@@ -13,8 +13,7 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "types": [
-      "node",
-      "swiper/vue"
+      "node"
     ],
     "baseUrl": "..",
     "paths": {

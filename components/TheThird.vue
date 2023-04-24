@@ -2,9 +2,9 @@
   <div class="container mx-auto">
     <div class="justify-between  tors flex">
       <div class="tor lg:w-1/3   text-white">
-        <div class=" lg:p-6 p-2 m-4">
-          <h1 class="text-3xl p-4 lg:text-5xl lg:p-5">
-            в срок сдаем <br />
+        <div class=" lg:p-4 p-2 m-2">
+          <h1 class="text-3xl p-4 lg:text-4xl lg:p-5">
+            в срок сдаем 
             работу!
           </h1>
           <h2 class="  text-xl p-4 mb-24 lg:text-2xl lg:p-5 lg:mb-32 text-start">
@@ -16,14 +16,14 @@
         <img class="img_1" src="@/assets/img/time.png" alt="" />
       </div>
       <div class="tor w-1/3 text-white">
-        <div class="p-6">
-          <h1 class="text-3xl lg:text-5xl p-4 lg:p-5">
-            Команда <br />
+        <div class="p-5">
+          <h1 class="text-3xl lg:text-4xl p-4 lg:p-5">
+            Команда 
             специалистов
           </h1>
           <h2 class="text-xl lg:text-2xl p-4 lg:p-5 mb-32 text-start">
-            В нашей команде множество <br />
-            специалистов, и каждый из них <br />
+            В нашей команде множество 
+            специалистов, и каждый из них 
             хорошо знает свое
           </h2>
         </div>
@@ -31,11 +31,11 @@
       </div>
       <div class="tor text-white">
         <div class="p-6">
-          <h1 class=" p-4 text-3xl lg:text-5xl lg:p-4">
+          <h1 class=" p-4 text-3xl lg:text-4xl lg:p-4">
             Консультация <br/>
             перед заказом
           </h1>
-          <h2 class=" text-xl third_H2 lg:text-2xl p-5 mb-32 text-start">
+          <h2 class=" text-xl third_H2 lg:text-2xl p-5 lg:p-1 mb-32 text-start">
             Наши менеджеры в сети 24/7, <br />
             и готовы помочь вам, а так же <br />
             ответить на вопросы
@@ -91,6 +91,7 @@
   margin-bottom: 30px;
   position: relative;
   transition: all .5s ease-in-out;
+  margin: 15px;
 }
 .tor:hover {
   transform: scale(1.1);

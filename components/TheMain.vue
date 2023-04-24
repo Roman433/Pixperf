@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="cul right  w-1/2 h-full circle">
-        <img class=" w-full button-3" src="@/assets/img/man.png" alt="" />
+        <img class=" w-full button-3" src="@/assets/img/man.png" width="100" height="100" alt="man" />
       </div>
     </div>
   </div>
@@ -97,6 +97,8 @@ br {
 }
 .home {
   background-image: url("@/assets/img/bg.png");
+  width: 100%;
+  height: 100%;
 }
 .circle {
   background-image: url("@/assets/img/circles.png");

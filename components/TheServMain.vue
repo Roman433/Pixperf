@@ -9,7 +9,7 @@
           <p class="mb-6 text-lg text-white">
             Услуги разработки сайтов включают создание веб-сайтов с нуля или модификацию существующих сайтов, чтобы соответствовать потребностям клиентов.
           </p>
-          <a href="#" class="block font-medium text-primary text-white underline">узнать больше</a>
+          <NuxtLink to="dev" class="block font-medium text-primary text-white underline">узнать больше</NuxtLink>
         </div>
         <img
           src="@/assets/img/graphic.svg"

@@ -2,11 +2,11 @@
   <div class="mainer">
     <div class="container mx-auto">
     <div class=""></div>
-    <TheAbout />
+    <TheAboutTri />
     <div class="">
       <TheAccordion />
     </div>
-      <TheAboutTri />
+      <!-- <TheAboutTri /> -->
       <!-- <TheGlobStep /> -->
       <TheTeam />
     <!-- <TheSource /> -->

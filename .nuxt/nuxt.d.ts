@@ -5,7 +5,6 @@
 /// <reference path="types/vue-shim.d.ts" />
 /// <reference path="types/schema.d.ts" />
 /// <reference path="types/app.config.d.ts" />
-/// <reference types="swiper/vue" />
 /// <reference types="vue-router" />
 /// <reference path="types/middleware.d.ts" />
 /// <reference path="types/layouts.d.ts" />

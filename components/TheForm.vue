@@ -1,3 +1,7 @@
+<script setup>
+
+</script>
+
 <template>
   <div>
     <form>
@@ -27,7 +31,7 @@
         </div>
         
         <div class="with-phone w-1/3  p-5">
-            <img class="w-full " src="@/assets/img/phone.png">
+            <img class="w-full " alt="phone" src="@/assets/img/phone.png">
         </div>
         
     </div>
