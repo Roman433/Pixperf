@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container p-3 mx-auto">
     <div class="justify-between  tors flex">
       <div class="tor    text-white">
         <div class=" lg:p-4 p-2 m-2">
@@ -60,7 +60,7 @@
     
      width: 100%;
      
-     /* margin: 5px; */
+     
   }
   .tor {
     width: 100%;

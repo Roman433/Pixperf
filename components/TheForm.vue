@@ -7,7 +7,7 @@
     <form>
       <div id="form" class=" flex tad ">
         <div class="forma w-1/3 m-8 ">
-            <h1 class="text-volna send text-5xl mb-3">Оставь заявку</h1>
+            <h1 class="text-volna send text-4xl mb-3">Оставь заявку</h1>
             <div action="" method="POST">
                 <p class="text-white">Ваше ФИО</p>
                 <input name="name" class="inp" type="text" placeholder="введите ваше имя" />
@@ -31,7 +31,7 @@
         </div>
         
         <div class="with-phone w-1/3  p-5">
-            <img class="w-full " alt="phone" src="@/assets/img/phone.png">
+            <img class="w-full h-full" alt="phone" src="@/assets/img/phone.png">
         </div>
         
     </div>
