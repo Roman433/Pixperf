@@ -1,4 +1,118 @@
 <template>
+  <section class="">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Коротко о тарифах</h2>
+          
+      </div>
+      <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10  lg:space-y-0">
+          <!-- Pricing Card -->
+          <div
+            class="h-full p-6 bgr rounded-2xl flex flex-col relative rounded-xl overflow-hidden"
+          >
+            <h1
+              class="text-4xl text-white pb-4 mt-4 mb-4 border-b font-medium leading-none"
+            >
+              Сайт “Каталог”
+            </h1>
+            <p class="flex items-center text-white mt-2">
+              Сайт-каталог – это полноценный веб-ресурс, в котором потребители
+              могут ознакомиться с товарами или услугами компании. Являясь
+              удобным инструментом продаж, сайт-каталог может повысить
+              доходность бизнеса и упростить задачу по предоставлению
+              ассортимента целевой аудитории.
+            </p>
+
+            <div class="flex text-white mt-24">
+              <p2 class="font-semibold"
+                >От 65.000₸ <br />
+                от 15 дней
+              </p2>
+
+              <NuxtLink
+                to="#form"
+                class="text-center text-white border-0 py-3 px-4 lg:px-4 w-1/2 m-auto btn"
+              >
+                заказать
+              </NuxtLink>
+            </div>
+          </div>
+          <!-- Pricing Card -->
+          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bgr rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+            
+            <h1
+              class="text-3xl text-gray-900  mt-4 mb-4 border-b font-medium leading-none"
+            >
+              Сайт “Интернет магизин”
+            </h1>
+            <p class="flex items-center text-white mb-4">
+              Сайт интернет-магазина может содержать каталог товаров с
+              описаниями, фотографиями, ценами и другой информацией, а также
+              функционал для оформления заказов, добавления товаров в корзину,
+              выбора способов доставки и оплаты.
+            </p>
+
+            <div class="flex mb-2 mt-24">
+              <p2 class="font-semibold"
+                >От 110.000₸ <br />
+                от 18дней
+              </p2>
+
+              <NuxtLink
+                to="#form"
+                class="text-center text-white border-0 py-3 px-4 w-1/2 m-auto btn"
+              >
+                заказать
+              </NuxtLink>
+            </div>
+          
+          </div>
+          <!-- Pricing Card -->
+          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bgr rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+            <h1
+              class="text-3xl text-gray-900 pb-4 mt-4 mb-4 border-b font-medium leading-none"
+            >
+              Сайт “Landing”
+            </h1>
+            <p class="flex items-center text-white mt-4 mb-6">
+              Одностраничный сайт (Landing Page) – так называют промо-сайты для
+              презентации товара, услуги и организации мгновенных продаж. Мы
+              умеем создавать веб-ресурсы, полностью готовые к наплыву лавины
+              посетителей.
+            </p>
+
+            <div class="flex mt-28">
+              <p2 class="font-semibold"
+                >От 75.000₸ <br />
+                от 7 дней
+              </p2>
+
+              <NuxtLink
+                to="#form"
+                class="text-center text-white border-0 py-3 px-4 w-1/2 m-auto btn"
+              >
+                заказать
+              </NuxtLink>
+            </div>
+          </div>
+      </div>
+      
+  </div>
+</section>
+</template>
+
+
+<style scoped>
+.bgr {
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn {
+  border: 2px solid #1eebcd;
+  border-radius: 20px;
+}
+</style>
+
+<!-- <template>
   <div class="overflow-y-hidden">
     <div class="container text-center ">
       <h1 class="text-volna text-6xl p-1 font-semibold mb-12">Тарифы</h1>
@@ -200,4 +314,4 @@ line-height: 1.25rem;
   }
 }
 
-</style>
+</style> -->

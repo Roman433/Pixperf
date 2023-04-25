@@ -2,7 +2,7 @@
   <div class="container">
     <div class="lg:flex bor lg:justify-between">
       <div class="withtext w-full  lg:w-1/2 ">
-        <h1 class="text-3xl text-start lg:text-start lg:text-5xl p-2  text-volna font-semibold mb-6">
+        <h1 class="text-xl text-start lg:text-start lg:text-2xl p-2  text-volna font-semibold mb-6">
           Причины сотрудничать
           с нами
         </h1>
@@ -17,18 +17,18 @@
         <NuxtLink to="/portfolio"><button class="offset btn_port ">портфолио</button></NuxtLink>
       </div>
       <div class="tom  oly text-white">
-        <div class="p-3   ">
-          <h1 class="text-4xl lg:text-5xl p-1 lg:p-5">
+        <div class=" p-4  ">
+          <h1 class="text-xl lg:text-2xl p-1 lg:p-5">
             Приемлимые <br />
             цены
           </h1>
-          <h2 class="text-xl  lg:text-2xl lg:p-5 mb-32 lg:mb-32 lg:text-start ">
+          <h2 class="text-lg  lg:text-xl lg:p-5 mb-32 lg:text-start ">
             мы максимально оптимизируем <br />
             наш труд, для того, чтобы цены <br />
             были доступными
           </h2>
         </div>
-        <img class=" w-1/2" src="@/assets/img/money.png" alt="">
+        <img class="" src="@/assets/img/money.png" alt="">
       </div>
     </div>
   </div>
@@ -97,7 +97,7 @@ img {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 40%;
+  width: 30%;
   
 }
 offset {
@@ -127,8 +127,8 @@ button {
   border: 2px solid;
   font: inherit;
   line-height: 1;
-  margin: 0.5em;
-  padding: 1em 2em;
+  margin: 0.25em;
+  padding: 0.9em 0.9em;
 }
 
 </style>
