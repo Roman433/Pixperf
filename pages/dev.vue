@@ -5,6 +5,7 @@
             <div class="container inner  mx-auto" >
             <TheNums />
             <TheAbout />
+            <TheSet />
             <!-- <ThePricing />  -->
          </div>
         </div>

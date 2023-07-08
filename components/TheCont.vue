@@ -49,7 +49,7 @@
 <style scoped>
 
 .box {
-  border: 1px solid red;
+  border: 2px solid #2EECC5;
 
 }
 .first {
