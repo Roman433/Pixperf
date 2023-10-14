@@ -1424,7 +1424,15 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-575e7154.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-132b44a7.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "only",
+    path: "/only",
+    meta: {},
+    alias: [],
+    redirect: void 0,
+    component: () => import('./_nuxt/only-ed786932.mjs').then((m) => m.default || m)
   },
   {
     name: "portfolio",
@@ -1432,7 +1440,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/portfolio-606b78ac.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/portfolio-f9fd74f4.mjs').then((m) => m.default || m)
   },
   {
     name: "price",
@@ -1448,7 +1456,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/services-96cd97d2.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/services-e31767b6.mjs').then((m) => m.default || m)
   }
 ];
 const routerOptions0 = {

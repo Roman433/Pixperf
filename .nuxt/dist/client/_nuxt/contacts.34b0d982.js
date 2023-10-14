@@ -1,1 +1,0 @@
-import{_ as t}from"./TheCont.9cf4dc53.js";import{_ as c,c as o,a as _,b as s,o as n}from"./entry.bc84ea7d.js";const a={},r={class:"mainer"},f={class:"container mx-auto"};function d(i,m){const e=t;return n(),o("section",r,[_("div",f,[s(e)])])}const u=c(a,[["render",d],["__scopeId","data-v-16fcfe9f"]]);export{u as default};
