@@ -1,13 +1,13 @@
 <template>
     <div class="">
             <div class="  first_main mt-32">
-                <div class="w-1/2  with_img pl-16">
+                <div class="w-1/3  with_img pl-16">
                  <img src="@/assets/img/nods.png" alt="">    
              </div>
              <div class=" gradient  w-1/2 ">
-                 <h1 class=" text-white font-semibold text-7xl">Почему именно мы?</h1>
-                 <h2 class="text-5xl mt-4 text-volna">большинство клиентов </h2>
-                 <p class="text-white text-2xl mt-3"> довольны качествам, скоростью а также отзывчивостью и гибкостью сотрдуников</p>
+                 <h1 class=" text-white font-semibold  text-5xl">Почему именно мы?</h1>
+                 <h2 class="text-3xl mt-4 text-volna">большинство клиентов </h2>
+                 <p class="text-white text-xl mt-3"> довольны качествам, скоростью а также отзывчивостью и гибкостью сотрдуников</p>
              </div>
              
      </div>
@@ -21,7 +21,7 @@
      justify-content: space-between;
          display: flex;
         
-         
+            
      }
  .choose_p {
  box-shadow: 0px 4px 67px rgba(30, 235, 205, 0.6);

@@ -2,6 +2,7 @@
     <div class="price">
         <div class="price_inner">
             <ThePricing />
+            <TheCarousel />
         </div>
     </div>
 </template>

@@ -1,12 +1,12 @@
 <template>
     
-    <div class="py-16">
+    <div class="py-2">
   <div class="container m-auto px-6 text-gray-500 md:px-12 xl:px-0">
     <div class="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
       <div class="borders rounded-3xl first_dev px-8 pt-12 shadow-2xl shadow-gray-600/10 dark:shadow-none sm:px-12 lg:px-8">
         <div class="mb-12 space-y-4">
-          <h3 class="text-3xl font-semibold text-white ">Разработка</h3>
-          <p class="mb-6 text-lg text-white">
+          <h3 class="text-xl font-semibold text-white ">Разработка</h3>
+          <p class="mb-6 text-sm text-white">
             Услуги разработки сайтов включают создание веб-сайтов с нуля или модификацию существующих сайтов, чтобы соответствовать потребностям клиентов.
           </p>
           <NuxtLink to="dev" class="block font-medium text-primary text-white underline">узнать больше</NuxtLink>
@@ -22,11 +22,11 @@
       </div>
       <div class="border borders rounded-3xl first_dev dark:bg-gray-800 px-8 py-12 shadow-2xl shadow-gray-600/10 dark:shadow-none sm:px-12 lg:px-8">
         <div class="mb-12 space-y-4">
-          <h3 class="text-3xl font-semibold text-white ">UI / UX </h3>
-          <p class="mb-6 text-lg text-white">
+          <h3 class="text-xl font-semibold text-white ">UI / UX </h3>
+          <p class="mb-6 text-sm text-white">
             Услуги UI/UX-дизайна включают проектирование интерфейса пользователя (UI) и оптимизацию пользовательского опыта (UX) на веб-сайтах, мобильных приложениях или других цифровых продуктах.
           </p>
-          <a href="#" class="block font-medium text-white text-primary underline" >узнать больше</a>
+          <NuxtLink to="design" class="block font-medium text-white text-primary underline" >узнать больше</NuxtLink>
         </div>
         <img
           src="@/assets/img/body.svg"
@@ -39,11 +39,11 @@
       </div>
       <div class="border borders rounded-3xl first_dev px-8 py-12 shadow-2xl shadow-gray-600/10 dark:shadow-none sm:px-12 lg:px-8">
         <div class="mb-12 space-y-4">
-          <h3 class="text-3xl font-semibold text-white"> Дизайн</h3>
-          <p class="mb-6 text-white text-lg">
+          <h3 class="text-xl font-semibold text-white"> Дизайн</h3>
+          <p class="mb-6 text-white text-sm">
             Профессиональное создание визуальных решений для различных цифровых и физических продуктов, услуг и медиа-контента. 
           </p>
-          <a href="#" class="block font-medium text-white text-primary underline">узнать больше</a>
+          <NuxtLink to="only" class="block font-medium text-white text-primary underline">узнать больше</NuxtLink>
         </div>
         <img
           src="@/assets/img/features.svg"

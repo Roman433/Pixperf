@@ -1,35 +1,36 @@
 <template>
-    <section class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+    <section class="pt-20 pb-12 lg:pt-[120px]  lg:pb-[90px]">
   <div class="container mx-auto">
     <div class="-mx-4 flex flex-wrap">
       <div class="w-full px-4">
         <div class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
-          <span class="text-primary mb-2 block text-lg font-semibold">
-            Our Services
+          <span class="text-primary text-volna mb-2 block text-xl font-semibold">
+            Наши особенности
           </span>
           <h2
-            class="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]"
+            class="text-dark mb-4 text-2xl text-white font-bold sm:text-4xl md:text-[40px]"
           >
-            What We Offer
+            Что мы предлагаем
           </h2>
-          <p class="text-body-color text-base">
+          <!-- <p class="text-white text-base">
             There are many variations of passages of Lorem Ipsum available but
             the majority have suffered alteration in some form.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
-    <div class="-mx-4 flex flex-wrap">
+    
+    <div class="-mx-2 flex flex-wrap">
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
-          class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
+          class="mb-8 rounded-[20px] bgr p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
         >
           <div
-            class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
+            class=" mb-4 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
           >
             <svg
-              width="32"
-              height="32"
+              width="22"
+              height="22"
               viewBox="0 0 32 32"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -40,25 +41,25 @@
               />
             </svg>
           </div>
-          <h4 class="text-dark mb-3 text-xl font-semibold">
-            Refreshing Design
+          <h4 class="text-volna mb-3 text-xl font-semibold">
+            Свежий дизайн
           </h4>
-          <p class="text-body-color">
-            We dejoy working with discerning clients, people for whom qualuty,
-            service, integrity & aesthetics.
+          <p class="text-body-color text-sm text-white">
+            Нам приятно работать с взыскательными клиентами, людьми, для которых качество,
+            сервис играют важную роль
           </p>
         </div>
       </div>
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
-          class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
+          class="mb-8 bgr rounded-[20px] brd p-10  md:px-7 xl:px-10"
         >
           <div
-            class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
+            class=" mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
           >
             <svg
-              width="39"
-              height="22"
+              width="22"
+              height="12"
               viewBox="0 0 39 22"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -77,21 +78,22 @@
               />
             </svg>
           </div>
-          <h4 class="text-dark mb-3 text-xl font-semibold">
-            Based on Tailwind CSS
+          <h4 class="text-volna mb-3 text-xl font-semibold">
+            Полный цикл разработки:
           </h4>
-          <p class="text-body-color">
-            We dejoy working with discerning clients, people for whom qualuty,
-            service, integrity & aesthetics.
+          <p class="text-white text-sm">
+            Мы предлагаем полный спектр услуг — от концепции
+             и дизайна до разработки, тестирования и запуска. 
+           
           </p>
         </div>
       </div>
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
-          class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
+          class="mb-8 bgr rounded-[20px] p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
         >
           <div
-            class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
+            class=" mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
           >
             <svg
               width="35"
@@ -118,19 +120,20 @@
               />
             </svg>
           </div>
-          <h4 class="text-dark mb-3 text-xl font-semibold">100+ Components</h4>
-          <p class="text-body-color">
-            We dejoy working with discerning clients, people for whom qualuty,
-            service, integrity & aesthetics.
+          <h4 class="text-volna mb-3 text-xl font-semibold">Фокус на результате</h4>
+          <p class="text-white text-sm" >
+            Мы разрабатываем веб-сайты 
+            с учетом их потребностей в конверсиях, 
+            продажах или привлечении аудитории.
           </p>
         </div>
       </div>
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
-          class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
+          class="mb-8 bgr rounded-[20px] p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
         >
           <div
-            class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
+            class=" mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
           >
             <svg
               width="35"
@@ -157,19 +160,19 @@
               />
             </svg>
           </div>
-          <h4 class="text-dark mb-3 text-xl font-semibold">Speed Optimized</h4>
-          <p class="text-body-color">
-            We dejoy working with discerning clients, people for whom qualuty,
-            service, integrity & aesthetics.
+          <h4 class="text-volna mb-3 text-xl font-semibold">Инновационные решения</h4>
+          <p class="text-white text-sm">
+            Мы ищем нестандартные способы решения задач и готовы предложить инновационные идеи
+             
           </p>
         </div>
       </div>
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
-          class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
+          class="mb-8 bgr rounded-[20px] p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
         >
           <div
-            class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
+            class=" mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
           >
             <svg
               width="35"
@@ -184,21 +187,20 @@
               />
             </svg>
           </div>
-          <h4 class="text-dark mb-3 text-xl font-semibold">
-            Fully Customizable
+          <h4 class="text-volna mb-3 text-xl font-semibold">
+            Полный цикл разработки:
           </h4>
-          <p class="text-body-color">
-            We dejoy working with discerning clients, people for whom qualuty,
-            service, integrity & aesthetics.
+          <p class="text-white text-sm">
+            Mы предлагаем полный спектр услуг — от концепции и дизайна до разработки и запуска
           </p>
         </div>
       </div>
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
-          class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
+          class="mb-8 bgr rounded-[20px] p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
         >
           <div
-            class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
+            class=" mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
           >
             <svg
               width="35"
@@ -217,10 +219,9 @@
               />
             </svg>
           </div>
-          <h4 class="text-dark mb-3 text-xl font-semibold">Regular Updates</h4>
-          <p class="text-body-color">
-            We dejoy working with discerning clients, people for whom qualuty,
-            service, integrity & aesthetics.
+          <h4 class="text-volna mb-3 text-xl font-semibold">максимальная конверсия</h4>
+          <p class="text-white text-sm">
+            Мы не просто создаем веб-сайты, но и оптимизируем их для максимальной конверсии
           </p>
         </div>
       </div>
@@ -228,3 +229,12 @@
   </div>
 </section>
 </template>
+
+
+<style scoped>
+.bgr {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+
+</style>

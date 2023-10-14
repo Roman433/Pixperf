@@ -4,20 +4,23 @@
   
   <div class="container overflow-x-hidden mx-auto pt-7 ">
     <div class="bck">
-      <TheMain />
+      <HeroMain />
+      <!-- <TheMain /> -->
     </div>
     <TheSec />
     <TheThird />
-    <TheTarifs  />
-    <TheFlowbite />
-  
+    <!-- <TheTarifs  /> -->
+    <TheStep />
+    <TheNums />
+    <TheGallery />
+    <TheCont />
   </div>
  </div>
  
 </template>
 
 <style scoped>
-.bck {
+/* .bck {
   background-image: url('@/assets/img/bg.png');
-}
+} */
 </style>

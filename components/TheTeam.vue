@@ -2,11 +2,11 @@
 <section class="text-gray-400 bg-gray-900 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="text-3xl lg:text-6xl font-semibold title-font mb-4 text-white tracking-widest">НАША КОМАНДА</h1>
+      <h1 class="text-3xl lg:text-6xl font-semibold title-font p-5 mb-4 text-white tracking-widest">НАША КОМАНДА</h1>
       
     </div>
     <div class="flex flex-wrap -m-4">
-      <div class="p-4 lg:w-1/2">
+      <div class="p-4 lg:w-1/2 ">
         <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="@/assets/img/avatar.png">
           <div class="flex-grow sm:pl-8">
@@ -61,6 +61,7 @@
         </div>
       </div>
     </div>
+    
   </div>
 </section>
 

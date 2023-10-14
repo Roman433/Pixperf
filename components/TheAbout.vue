@@ -1,13 +1,13 @@
 <template>
    <div class="">
-           <div class="  first_main mt-32">
-            <div class=" gradient  w-1/2 ">
-                <h1 class=" text-white font-bold text-7xl">Для чего вам сайт?</h1>
-                <h2 class="text-5xl mt-4 text-volna">Создание сайта поможет</h2>
-                <p class="text-white text-2xl mt-3"> расширить ваш бизнес, а также увеличит кофморт его ведения</p>
+           <div class="  first_main ">
+            <div class=" gradient  w-1/2  ">
+                <h1 class=" text-white font-bold text-5xl">Для чего вам сайт?</h1>
+                <h2 class="text-3xl mt-4 text-volna">Создание сайта поможет</h2>
+                <p class="text-white text-xl mt-3"> расширить ваш бизнес, а также увеличит кофморт его ведения</p>
             </div>
-            <div class="w-1/2  with_img pl-16">
-                <img src="@/assets/img/table.png" alt="">    
+            <div class="w-1/2 p-16  with_img ">
+                <img class="w-1/2 mx-auto" src="@/assets/img/table.png" alt="">    
             </div>
     </div>
    </div>

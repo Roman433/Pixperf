@@ -4,12 +4,14 @@
     <div class=""></div>
     <TheAboutTri />
     <div class="">
-      <TheAccordion />
+      
     </div>
       <!-- <TheAboutTri /> -->
       <!-- <TheGlobStep /> -->
+      <TheSource />  
       <TheTeam />
-    <!-- <TheSource /> -->
+    <!--  -->
+    <TheAccordion />
   </div>
   </div>
 </template>

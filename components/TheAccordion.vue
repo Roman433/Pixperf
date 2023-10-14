@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="mt-12">
       
       <div class=" m-2 text-white justify-between  w-full  " v-for="item in items" :key="item.id">
         <div class="title_svg w-full flex items-center">
@@ -16,7 +16,7 @@
           </div>
           <h1 class="" @click="toggleAccordion(item.id)">{{ item.title }}  </h1>
         </div>
-        <p class="inactive-text m-1 text-3xl" :class="{'active-text': item.open}" v-if="item.open">{{ item.content }}</p>
+        <p class="inactive-text m-1 " :class="{'active-text': item.open}" v-if="item.open">{{ item.content }}</p>
       </div>
     </div>
   </template>
@@ -71,7 +71,7 @@
   p {
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 150%;
   }
   .active {
