@@ -1,9 +1,11 @@
+
+
 <template>
   <section class="text-white body-font overflow-hidden">
     <div><h1 class="text-7xl text-center mt-36 ">Цены</h1></div>
     <div class="container px-5 py-20 mx-auto ">
       <div class="flex flex-wrap -m-5 ">
-        <div class="p-4 xl:w-1/4  md:w-1/2 w-full">
+        <div class="lg:p-4 p-3 xl:w-1/4  md:w-1/2 w-full lg:m-0 m-4">
           <div
             class="h-full lg:p-6 p-8 bgr rounded-2xl flex flex-col relative overflow-hidden"
           >
@@ -36,7 +38,7 @@
           </div>
 
         </div>
-        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full lg:m-0 m-3">
           <div
             class="h-full p-6 bgr rounded-2xl flex flex-col relative overflow-hidden"
           >
@@ -68,7 +70,7 @@
           </div>
         </div>
 
-        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full lg:m-0 m-3">
           <div
             class="h-full p-6 bgr rounded-2xl flex flex-col relative overflow-hidden"
           >
@@ -100,7 +102,7 @@
           </div>
         </div>
 
-        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full lg:m-0 m-3">
           <div
             class="h-full p-6 bgr rounded-2xl flex flex-col relative overflow-hidden"
           >
@@ -132,7 +134,7 @@
           </div>
         </div>
 
-        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full lg:m-0 m-3">
           <div
             class="h-full p-6 bgr rounded-2xl flex flex-col relative overflow-hidden"
           >

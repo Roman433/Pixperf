@@ -1,3 +1,22 @@
+<script setup lang="ts">
+useHead({
+  title: "Создать сайт в Алматы",
+  meta: [
+    {
+      name: "description", content: "создать сайт в алматы. Разработка сайта в Алматы, разработка сайта под ключ. ☎ +7 7071033382"
+    },
+    {
+      name: "keywords",
+      content: "разработка, сайт, сайт в Алматы, создание сай"
+    },
+    {
+      
+    }
+  ],
+})
+</script>
+
+
 <template>
     <section class="mainer">
       <div class="container mx-auto">

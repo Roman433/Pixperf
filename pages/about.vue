@@ -3,9 +3,9 @@
     <div class="container mx-auto">
     <div class=""></div>
     <TheAboutTri />
-    <div class="">
-      
-    </div>
+    <div v-if="loading" class="items-center mx-auto">
+      <Loading />
+     </div> 
       <!-- <TheAboutTri /> -->
       <!-- <TheGlobStep /> -->
       <TheSource />  
@@ -15,6 +15,40 @@
   </div>
   </div>
 </template>
+
+
+
+
+<script setup lang="ts">
+  const nuxtApp = useNuxtApp();
+  const loading = ref(false);
+  nuxtApp.hook("page:start", () => {
+    loading.value = true;
+  });
+  nuxtApp.hook("page:finish", () => {
+    loading.value = false;
+  });
+  useHead({
+  title: "Разработка сайтов более трех лет",
+  meta: [
+    {
+      name: "description", content: "Мы заниммаемся разработкой сайтов более ттрех"
+    },
+    {
+      name: "keywords",
+      content: "сайт, создание в Алматы, дешево, с нуля"
+    },
+    {
+      
+    }
+  ],
+})
+</script>
+
+
+
+
+
 
 <style scoped>
 .mainer {

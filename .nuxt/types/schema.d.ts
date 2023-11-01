@@ -12,17 +12,22 @@ declare module 'nuxt/schema' {
 
       cdnURL: string,
    },
+
+   MAILHOST: string,
+
+   MAILPORT: string,
+
+   MAILUSER: string,
+
+   MAILPASSWORD: string,
+
+   CONTACTMAIL: string,
   }
   interface PublicRuntimeConfig {
 
   }
 }
 declare module 'vue' {
-        interface ComponentCustomProperties {
-          $config: RuntimeConfig
-        }
-      }
-declare module '@vue/runtime-dom' {
         interface ComponentCustomProperties {
           $config: RuntimeConfig
         }

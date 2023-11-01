@@ -7,7 +7,7 @@
         <div class="flex items-center justify-between">
           <NuxtLink
             to="/"
-            class="text-xl font-bold text-gray-800 md:text-2xl hover:text-blue-400"
+            class="text-xl font-bold text-gray-800 md:text-2xl hover:text-volna"
             >Pixel Perfect
           </NuxtLink>
           

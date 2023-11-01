@@ -8,7 +8,7 @@
             Наши особенности
           </span>
           <h2
-            class="text-dark mb-4 text-2xl text-white font-bold sm:text-4xl md:text-[40px]"
+            class="text-dark mb-1 lg:mb-4 text-2xl text-white font-bold sm:text-4xl md:text-3xl"
           >
             Что мы предлагаем
           </h2>
@@ -23,7 +23,7 @@
     <div class="-mx-2 flex flex-wrap">
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
-          class="mb-8 rounded-[20px] bgr p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
+          class="mb-8  rounded-[20px] bgr p-10 shadow-md e md:px-7 xl:px-10"
         >
           <div
             class=" mb-4 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
@@ -41,9 +41,9 @@
               />
             </svg>
           </div>
-          <h4 class="text-volna mb-3 text-xl font-semibold">
+          <h1 class="text-volna mb-3 text-xl font-semibold">
             Свежий дизайн
-          </h4>
+          </h1>
           <p class="text-body-color text-sm text-white">
             Нам приятно работать с взыскательными клиентами, людьми, для которых качество,
             сервис играют важную роль
@@ -78,9 +78,9 @@
               />
             </svg>
           </div>
-          <h4 class="text-volna mb-3 text-xl font-semibold">
+          <h1 class="text-volna mb-3 text-xl font-semibold">
             Полный цикл разработки:
-          </h4>
+          </h1>
           <p class="text-white text-sm">
             Мы предлагаем полный спектр услуг — от концепции
              и дизайна до разработки, тестирования и запуска. 
@@ -90,7 +90,7 @@
       </div>
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
-          class="mb-8 bgr rounded-[20px] p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
+          class="mb-8 bgr rounded-[20px] p-10 shadow-md  md:px-7 xl:px-10"
         >
           <div
             class=" mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
@@ -120,7 +120,7 @@
               />
             </svg>
           </div>
-          <h4 class="text-volna mb-3 text-xl font-semibold">Фокус на результате</h4>
+          <h1 class="text-volna mb-3 text-xl font-semibold">Фокус на результате</h1>
           <p class="text-white text-sm" >
             Мы разрабатываем веб-сайты 
             с учетом их потребностей в конверсиях, 
@@ -130,7 +130,7 @@
       </div>
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
-          class="mb-8 bgr rounded-[20px] p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
+          class="mb-8 bgr rounded-[20px] p-10 shadow-md  md:px-7 xl:px-10"
         >
           <div
             class=" mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
@@ -160,7 +160,7 @@
               />
             </svg>
           </div>
-          <h4 class="text-volna mb-3 text-xl font-semibold">Инновационные решения</h4>
+          <h1 class="text-volna mb-3 text-xl font-semibold">Инновационные решения</h1>
           <p class="text-white text-sm">
             Мы ищем нестандартные способы решения задач и готовы предложить инновационные идеи
              
@@ -169,7 +169,7 @@
       </div>
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
-          class="mb-8 bgr rounded-[20px] p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
+          class="mb-8 bgr rounded-[20px] p-10 shadow-md  md:px-7 xl:px-10"
         >
           <div
             class=" mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
@@ -187,9 +187,9 @@
               />
             </svg>
           </div>
-          <h4 class="text-volna mb-3 text-xl font-semibold">
+          <h1 class="text-volna mb-3 text-xl font-semibold">
             Полный цикл разработки:
-          </h4>
+          </h1>
           <p class="text-white text-sm">
             Mы предлагаем полный спектр услуг — от концепции и дизайна до разработки и запуска
           </p>
@@ -197,7 +197,7 @@
       </div>
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
-          class="mb-8 bgr rounded-[20px] p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10"
+          class="mb-8 bgr rounded-[20px] p-10 shadow-md  md:px-7 xl:px-10"
         >
           <div
             class=" mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl"
@@ -219,7 +219,7 @@
               />
             </svg>
           </div>
-          <h4 class="text-volna mb-3 text-xl font-semibold">максимальная конверсия</h4>
+          <h1 class="text-volna mb-3 text-xl font-semibold">максимальная конверсия</h1>
           <p class="text-white text-sm">
             Мы не просто создаем веб-сайты, но и оптимизируем их для максимальной конверсии
           </p>
@@ -235,6 +235,5 @@
 .bgr {
   background: rgba(255, 255, 255, 0.1);
 }
-
 
 </style>

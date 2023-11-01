@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="container p-3 mx-auto">
     <div class="justify-between  tors flex">
       <div class="tor    text-white">
@@ -51,6 +51,51 @@
       <div class="vertical-line"></div>
     </div>
   </div>
+</template> -->
+<template>
+    <section class="inline-block lg:flex  w-full mx-auto text-white ">
+      
+      <div class="bck m-3 items-center text-lg lg:m-3 relative lg:text-xl lg:w-1/3  ">
+        <h1 class=""> В срок сдаем работу!</h1>
+          <p class="pt-6 sin">
+            расписываем каждый этап по 
+            срокам, и придерживаемся 
+            дедлайнов
+          </p>
+        <img class="w-1/3 absolute bottom-0 right-0 " src="@/assets/img/time.png" alt="clock">
+      </div>
+
+      <div class="bck m-3 items-center text-lg relative lg:m-3 lg:text-xl lg:w-1/3  ">
+        <h1 class="">
+            Команда 
+            специалистов
+          </h1>
+          <p class="pt-6 sin">
+            В нашей команде множество 
+            специалистов, и каждый из них 
+            хорошо знает свое
+          </p>
+        <img class="w-1/3 absolute bottom-0 right-0 " src="@/assets/img/boy.png" alt="clock">
+      </div>
+     
+      <div class="bck m-3 items-center text-lg lg:m-3 lg:text-xl lg:w-1/3 relative  ">
+        <h1 class="">
+          Консультация <br/>
+            перед заказом
+          </h1>
+          <p class="pt-6 sin">
+            Наши менеджеры в сети 24/7, 
+            и готовы помочь вам, а так же 
+            ответить на вопросы
+          </p>
+        <img class="w-1/3 absolute bottom-0 right-0 " src="@/assets/img/headphones.png" alt="clock">
+      </div>
+    </section>
+    
+    <div class="containers">
+      <div class="vertical-line"></div>
+    </div>
+
 </template>
 
 <style scoped>
@@ -102,12 +147,12 @@
   transform: scale(1.1);
     transition: transform .7s;
 } */
-
+/* 
 img {
   position: absolute;
   bottom: 0;
   right: 0;
-}
+} */
 .tor {
   margin-bottom: 25px;
   padding: 10px;
@@ -133,5 +178,18 @@ img {
   width: 2px;
   height: 180px;
   background-color: rgba(46, 236, 197, 1);
+}
+.bck {
+  background: linear-gradient(
+    139.56deg,
+    #303134 10.06%,
+    #282828 53.72%,
+    #282828 88%
+  );
+  border-radius: 6px;
+  padding: 2.5rem;
+}
+.sin {
+  margin-bottom: 8rem;
 }
 </style>

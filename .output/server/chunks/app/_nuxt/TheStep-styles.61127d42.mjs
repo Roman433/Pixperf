@@ -1,6 +1,0 @@
-const TheStep_vue_vue_type_style_index_0_scoped_7dcf8598_lang = ".position[data-v-7dcf8598]{margin-left:auto;margin-right:auto;margin-top:15%;text-align:center}#workarea[data-v-7dcf8598]{background-color:#1e1a3e;font-family:Raleway;height:100%;position:absolute;width:100%}#personal[data-v-7dcf8598]{bottom:15px;color:#fff;right:2%;text-decoration:none}#personal[data-v-7dcf8598],.spot[data-v-7dcf8598]{position:absolute}.spot[data-v-7dcf8598]{height:100%;left:0;top:0;width:100%}.svg-wrapper[data-v-7dcf8598]{border-radius:3px;display:inline-block;height:40px;margin-left:5px;margin-right:5px;margin-top:0;position:relative;width:150px}#shape[data-v-7dcf8598]{stroke-width:6px;fill:transparent;stroke:#02ffc4;stroke-dasharray:85 400;stroke-dashoffset:-220;transition:all 1s ease}#text[data-v-7dcf8598]{margin-top:-35px;text-align:center}#text a[data-v-7dcf8598]{color:#fff;font-size:1.1em;font-weight:100;text-decoration:none}.svg-wrapper:hover #shape[data-v-7dcf8598]{stroke-dasharray:50 0;stroke-width:3px;stroke-dashoffset:0;stroke:#06d6a0}";
-
-const TheStepStyles_61127d42 = [TheStep_vue_vue_type_style_index_0_scoped_7dcf8598_lang];
-
-export { TheStepStyles_61127d42 as default };
-//# sourceMappingURL=TheStep-styles.61127d42.mjs.map

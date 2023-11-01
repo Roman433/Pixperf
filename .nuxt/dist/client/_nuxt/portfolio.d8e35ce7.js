@@ -1,1 +1,0 @@
-import{_ as e}from"./TheGallery.2ebb110d.js";import{_ as t,c,b as _,o as n}from"./entry.bd6f954d.js";const r={},s={class:""};function a(f,l){const o=e;return n(),c("div",s,[_(o)])}const i=t(r,[["render",a]]);export{i as default};

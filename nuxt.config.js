@@ -8,7 +8,11 @@ export default defineNuxtConfig({
       
     },
     modules: [
-      'vue3-carousel-nuxt'
+      'vue3-carousel-nuxt',
+      '@nuxtjs/html-validator',
+      '@vite-pwa/nuxt',
+      'nuxt-aos',
+      'nuxt-swiper'
     ],
     carousel: {
       prefix: 'MyPrefix'
@@ -16,5 +20,22 @@ export default defineNuxtConfig({
   },
   delayHydration: {
     mode: 'mount'
-  }
+  },
+  runtimeConfig: {
+    MAILHOST: process.env.MAILHOST,
+    MAILPORT: process.env.MAILPORT,
+    MAILUSER: process.env.MAILUSER,
+    MAILPASSWORD: process.env.MAILPASSWORD,
+    CONTACTMAIL: process.env.CONTACTMAIL
+  },
+  app: {
+    layoutTransition: {
+      name: 'page',
+      mode: 'out-in'
+    }
+  },
+  nitro: {
+    compressPublicAssets: true,
+  },
+
 });

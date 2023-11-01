@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="container">
     <div class="lg:flex bor lg:justify-between">
       <div class="withtext w-full  lg:w-1/2 ">
@@ -32,6 +32,36 @@
       </div>
     </div>
   </div>
+</template> -->
+<template>
+  <section data-aos="fade-up" class=" text-white lg:flex">
+    
+    <div class="w-2/3 lg:text-2 xl block text-xl m-8">
+        <h1 class="m-5 text-start text-volna font-semibold ">
+          Причины сотрудничать
+          с нами
+        </h1>
+        <p1 class="m-5">
+          Пока конкуренты говорят о том, что они лучшие - мы это доказываем
+          делом.
+        </p1>
+        <p1 class="m-5">
+          Пока конкуренты говорят о том, что они лучшие - мы это доказываем
+          делом.
+        </p1>
+    </div>
+        
+      <div class="bcka m-3 items-center text-lg lg:m-3 relative lg:text-xl lg:w-1/3  ">
+        <h1 class="z-20"> Приемлимые цены</h1>
+          <p class="pt-6 sin z-10">
+            мы максимально оптимизируем <br />
+            наш труд, для того, чтобы цены <br />
+            были доступными
+          </p>
+        <img class="w-1/3 absolute bottom-0 right-0 z-0 " src="@/assets/img/money.png" alt="clock">
+      </div>
+
+  </section>
 </template>
 
 
@@ -45,7 +75,26 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+  .bcka {
+    background: linear-gradient(
+    139.56deg,
+    #527791 10.06%,
+    #325597 53.72%,
+    #193895 88%
+  );
+  border-radius: 6px;
+  padding: 2.5rem;
+}
+.sin {
+  margin-bottom: 8rem;
+}
+</style>
+
+
+
+ <!-- <style scoped>
+
 
 
 @media(max-width: 1024px) {
@@ -131,4 +180,4 @@ button {
   padding: 0.9em 0.9em;
 }
 
-</style>
+</style> -->

@@ -1,16 +1,23 @@
 
 <template>
-  <div class="mar">
+  
+  <div  class="mar">
     <div class="">
       <!-- <TheNavigation/> -->
       <div class=" "><TheTestNav /></div>
-
-      <LazyNuxtPage />
+      
+        <div >
+          <NuxtLayout>
+          <NuxtLoadingIndicator />
+          <LazyNuxtPage /> 
+        </NuxtLayout>
+        </div>
 
       <a
         href="https://api.whatsapp.com/send?phone=77071033382"
         target="_blank"
         class="whatsapp-floater"
+        aria-label="Перейти в чат вацап"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -29,23 +36,32 @@
   </div>
 </template>
 
-<script setup>
+ <script setup>
 useHead({
-  title: "создание сайтов с нуля",
-  meta: "сайты под ключ",
+  
+  meta: [
+    {
+    viewport: "width=device-width, initial-scale=1"
+  },
+  {
+    name: "author", content: "pixel perfect"
+  },
+  {
+    property: "og:locale",
+    content: "ru_KZ"
+  },
+  {
+    property: "og:site_name",
+    content: "pixel-perfect.kz"
+  }
+],
+htmlAttrs: {
+  lang: 'ru',
+  },
 });
 
-// export default {
-//   data() {
-//     return {
-//       // Ваше значение для data()
-//     };
-//   },
-//   mounted() {
-//     console.log(this.$store.state.count);
-//   },
-// };
-</script>
+
+</script> 
 
 
 
@@ -55,6 +71,7 @@ useHead({
 <style>
 .mar {
   background-image: url("@/assets/img/secbg.jpg");
+  /* background: black; */
 }
 .whatsapp-floater {
   width: 60px;
